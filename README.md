@@ -57,3 +57,5 @@ Timeout Control: Sets a 1-second non-blocking timeout to avoid hanging on filter
 Connection Check: Uses socket.connect_ex() to check for open states (returning 0 on success).
 
 Service Mapping: Utilizes socket.getservbyport() to fetch the default service name associated with open ports.
+
+To test use IP addresses that you are allow to use or your own 
