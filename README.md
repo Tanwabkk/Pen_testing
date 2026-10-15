@@ -1,61 +1,24 @@
-Simple Python TCP Port Scanner
+Pen-Testing & Cybersecurity Lab
+A collection of educational cybersecurity scripts, vulnerability demonstrations, and proof-of-concept code samples for learning secure coding practices, penetration testing techniques, and application defense.
 
-A lightweight, multi-purpose Python script designed to perform TCP port scans on a target host or IP address. It scans a specified range of ports, identifies open connections, and resolves well-known standard services (such as HTTP, SSH, FTP).
+Purpose
+The goal of this repository is to serve as a personal sandbox and reference guide for understanding how common software vulnerabilities occur, how they can be tested locally, and how to properly secure code against them.
 
-Features
+Topics Covered
+Injection Flaws: Understanding SQL injection (SQLi), command injection, and input sanitization failures through vulnerable versus secure code implementations.
 
-Standard TCP Connect Scanning: Uses Python's native socket library to establish TCP handshake attempts.
+Authentication & Access Control: Examining session management flaws, password handling, and privilege escalation vectors.
 
-Service Resolution: Attempts to translate open port numbers into standard network service names (e.g., Port 80 -> http).
+Web Security: Exploring common web vulnerabilities (XSS, CSRF, insecure endpoints) using lightweight, dependency-free local environments.
 
-Configurable Port Ranges: Easily adjustable start and end port ranges.
+Defensive Engineering: Implementing robust mitigation strategies like parameterized queries, input validation, and least-privilege configurations.
 
-Zero Dependencies: Built entirely with Python standard libraries—no external packages required.
+Getting Started
+Most scripts in this repository are written in Python using standard libraries to minimize setup friction. Clone the repository and navigate to the specific directory of the script or experiment you wish to run:
 
-Prerequisites
-
-Python 3.6+ installed on your system.
-
-Usage
-
-Clone the repository:
-
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-
-
-Run the script:
-
-python port_scanner.py
-
-
-Provide a target:
-When prompted, enter a valid IP address or domain name:
-
-Target IP or hostname: scanme.nmap.org
-
-
-Example Output
-
-Target IP or hostname: scanme.nmap.org
-
-Scanning scanme.nmap.org
-Started at 14:22:05
-----------------------------------------
-  Port 22: OPEN (ssh)
-  Port 80: OPEN (http)
-
-Scan complete. 2 open port(s) found.
-
-
-How It Works
-
-Socket Creation: For each port in the requested range, the script initializes an IPv4 TCP socket (AF_INET, SOCK_STREAM).
-
-Timeout Control: Sets a 1-second non-blocking timeout to avoid hanging on filtered ports.
-
-Connection Check: Uses socket.connect_ex() to check for open states (returning 0 on success).
-
-Service Mapping: Utilizes socket.getservbyport() to fetch the default service name associated with open ports.
-
+Bash
+git clone https://github.com/your-username/pen-testing.git
+cd pen-testing
+Disclaimer
+All scripts, examples, and tools provided in this repository are strictly for educational purposes, defensive research, and authorized testing in controlled local environments. Do not run or test these scripts against any production systems or networks without explicit, written permission from the system owners.
 To test use IP addresses that you are allow to use or your own 
