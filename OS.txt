@@ -1,0 +1,6 @@
+This is not really a source code but i'm just explaining that for whoever wanting to start their journey, choosing an OS is very important.
+You can use window first that a no problem thing but to actually get hand-on stuff, you can run Kali Linux in a virtual machine, to understand 
+networking and various cybersecurity tools. 
+
+Yes, their are other OS too, such as Parrot OS, it's another distro of linux, which should be a lot friendlier than Kali, but i can't really 
+give an opinion right now since i'm using only Kali for now. 
