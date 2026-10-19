@@ -1,0 +1,5 @@
+This the documentation for the IpCat python program, where the program ask you for a host or a website, which 
+after you enter it will give you the website IP address which is the reason why i put it in the pen-testing 
+folder of mine. 
+
+Right now, the program is not working like it should be, so i will be updating it everyday. 
