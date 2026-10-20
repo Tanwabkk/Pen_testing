@@ -3,3 +3,7 @@ after you enter it will give you the website IP address which is the reason why 
 folder of mine. 
 
 Right now, the program is not working like it should be, so i will be updating it everyday. 
+
+
+There is actually a tool that actually can do this, which is zenmap or nmap. This program let you enter the IP address and find the 
+holes are unsafe and tell us where we can attack. 
