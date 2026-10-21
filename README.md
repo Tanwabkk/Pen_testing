@@ -3,7 +3,7 @@
 A collection of educational cybersecurity scripts, vulnerability demonstrations, and proof-of-concept code samples for learning secure coding practices, penetration testing techniques, and application defense.
 
 ## Purpose
-The goal of this repository is to serve as a personal sandbox and reference guide for understanding how common software vulnerabilities occur, how they can be tested locally, and how to properly secure code against them.
+The goal of this repository is to serve as a personal sandbox and reference guide for understanding how common software vulnerabilities occur, how they can be tested locally, and how to properly secure code against them. As well as anything you do related to IP address use your own device or you virtual machine as hacking or scanning other network that is not yours could give you trouble. 
 
 ## Topics Covered
 * **Injection Flaws:** Understanding SQL injection (SQLi), command injection, and input sanitization failures through vulnerable versus secure code implementations.
