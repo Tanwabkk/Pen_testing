@@ -15,3 +15,4 @@ and multiple USB 3.2 Type-A ports to host external wireless pentesting adapters 
 If choosing a laptop form factor, aim for a 15.6" or 16" anti-glare IPS display, an 80Wh+ battery, 
 and a host OS like Windows 11 Pro or Linux running VMware Workstation, VirtualBox, or KVM.
 
+UPdate for the RAM part is 32 is the best since you can run with your virtual machine, Invest in that 
