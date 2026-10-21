@@ -4,3 +4,6 @@ networking and various cybersecurity tools.
 
 Yes, their are other OS too, such as Parrot OS, it's another distro of linux, which should be a lot friendlier than Kali, but i can't really 
 give an opinion right now since i'm using only Kali for now. 
+
+Talking about the system, when doing or practicing ethical hacking. The safest way is that using two virtual machine, first is the Kali 
+or the hacker side and the second is the victim side with a lot of weakspot to be hacked. 
