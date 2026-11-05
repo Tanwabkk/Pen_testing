@@ -1,3 +1,5 @@
+# please use this program only on authorized IP or your own 
+
 import socket 
 
 website = input("Enter website (e.g google.com): ").strip()
