@@ -1,3 +1,5 @@
+# please use this with your own server or own port
+
 import socket
 import sys
 from datetime import datetime
