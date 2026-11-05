@@ -1,6 +1,8 @@
 import speedtest
 import ssl 
 
+# please use this program with your own network or network authorized to use
+
 def run_speed_test():
     print("Connecting to the best available server... Please wait!")
 
